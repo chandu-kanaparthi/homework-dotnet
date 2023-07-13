@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h3 class="display-4">Hello and Welcome!</h3>
+    <p>Welcome to the WebApp portion of the homework assignment.  For directions, please consult the README.md</p>
+    <hr /> 
+    
+    <div>
+        <h4>Current date and time: <i>@DateTime.UtcNow.ToString("s")Z</i></h4>
+    </div>
+
+    @if(DateTime.UtcNow.Minute % 2 == 0)
+    {
+        <div>
+            <i><a href="@Url.Action("EvenMinute", "Other")" target="_blank">Even Minute</a></i>
+        </div>
+    }
+
+    <hr />
+    <div>
+        Thank you for very much for taking the time to complete this part of the homework assignment!
+    </div>
+</div>

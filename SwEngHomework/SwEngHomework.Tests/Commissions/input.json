@@ -1,0 +1,62 @@
+﻿{
+  "advisors": [
+    {
+      "name": "Joe",
+      "level": "Senior"
+    },
+    {
+      "name": "Karen",
+      "level": "Senior"
+    },
+    {
+      "name": "Susan",
+      "level": "Experienced"
+    },
+    {
+      "name": "Karl",
+      "level": "Junior"
+    },
+    {
+      "name": "Mike",
+      "level": "Junior"
+    },
+    {
+      "name": "Jenny",
+      "level": "Junior"
+    }
+  ],
+  "accounts": [
+    {
+      "advisor": "Joe",
+      "presentValue": 65000
+    },
+    {
+      "advisor": "Joe",
+      "presentValue": 49000
+    },
+    {
+      "advisor": "Karen",
+      "presentValue": 555666
+    },
+    {
+      "advisor": "Susan",
+      "presentValue": 105000
+    },
+    {
+      "advisor": "Susan",
+      "presentValue": 6000
+    },
+    {
+      "advisor": "Karl",
+      "presentValue": 130000
+    },
+    {
+      "advisor": "Karl",
+      "presentValue": 56000
+    },
+    {
+      "advisor": "Jenny",
+      "presentValue": 9650
+    }
+  ]
+}
